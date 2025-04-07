@@ -287,4 +287,24 @@ body {
     font-size: 14px;
     cursor: pointer;
 }
+.filter-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 60%;
+    font-size: 30px;
+    background-color: orangered;
+    background-image: url(greyback4.png);
+    border-radius: 8px;
+}
+
+.filter-card:hover {
+    background-color: orange;
+    color: #fff;
+}
+.filter-card:hover .filter-icon {
+    background-color: orange;
+}
+
 
